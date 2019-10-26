@@ -17,9 +17,20 @@ table {
 }
 
 .header-row {
-    background: #34495E;
+    background: #34495E!important;
     color: #fff
 }
+
+/*Bonus Mission 1*/
+tr:nth-child(even) {
+  background: #FFFFFF;
+}
+
+/*Bonus Mission 1*/
+tr:nth-child(odd) {
+  background: #DDEBF7;
+}
+
 
 th, td {
     text-align: left;

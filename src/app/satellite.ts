@@ -4,8 +4,6 @@ export class Satellite {
     type: string;
     operational: boolean;
     launchDate: string;
-    //Step 6
-    //shouldShowWarning: boolean = true;
 
     shouldShowWarning(): boolean { 
 
